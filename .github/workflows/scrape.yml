@@ -9,11 +9,11 @@ jobs:
     steps: 
       - name: Check out this repo
         uses: actions/checkout@v2
-      - name: Set up Python
+      - name: Set up python
         uses: actions/setup-python@v2
         with:
             version: '3.9'
-      - name: Install the necessary packages
+      - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas
       - name: Run the scraping script
         run: python scraper.py
