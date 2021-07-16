@@ -10,9 +10,7 @@ jobs:
       - name: Check out this repo
         uses: actions/checkout@v2
       - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.9.6'
+        uses: actions/setup-python@v3.9.5
       - name: Install the necessary libraries
         run: pip install requests beautifulsoup4 pandas
       - name: Run the scraping script
