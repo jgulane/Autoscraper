@@ -12,7 +12,7 @@ import pandas as pd
 # In[6]:
 
 
-get_ipython().system('pip install beautifulsoup4')
+get_python().system('pip install beautifulsoup4')
 
 
 # In[7]:
