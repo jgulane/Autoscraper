@@ -12,7 +12,7 @@ jobs:
       - name: Set up python
         uses: actions/setup-python@v2
         with:
-            version: '3.9'
+            python-version: '3.9'
       - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas
       - name: Run the scraping script
