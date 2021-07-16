@@ -15,7 +15,7 @@ jobs:
           python-version: '3.9'
       - name: Install the necessary libraries
         run: pip install requests beautifulsoup4 pandas
-      - name: Run our scraping script
+      - name: Run the scraping script
         run: python scraper.py
       - name: Commit and push if content changed
         run: |-
